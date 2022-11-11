@@ -1,0 +1,30 @@
+{
+  "name": "@suzulabo/prettier-config",
+  "version": "0.0.0",
+  "homepage": "https://github.com/suzulabo/code-config/packages/prettier-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suzulabo/code-config.git"
+  },
+  "author": "Kenji Suzuki",
+  "keywords": [
+    "prettier-config",
+    "prettier"
+  ],
+  "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.cjs"
+  ],
+  "scripts": {
+    "publish": "pnpm publish"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "peerDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
