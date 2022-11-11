@@ -13,7 +13,8 @@
     "noUnusedParameters": true,
 
     "importsNotUsedAsValues": "error",
-    "checkJs": true,
+    "allowJs": false,
+    "checkJs": false,
 
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -25,6 +26,6 @@
     "target": "ESNext",
     "module": "ESNext"
   },
-  "include": [],
+  "include": ["**/*"],
   "exclude": ["node_modules", "dist"]
 }
