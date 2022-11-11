@@ -19,7 +19,7 @@
     "tsconfig.json"
   ],
   "scripts": {
-    "test": "node test.cjs"
+    "publish": "pnpm publish"
   },
   "devDependencies": {
     "typescript": "^4.8.4"

@@ -18,6 +18,9 @@
   "files": [
     "index.cjs"
   ],
+  "scripts": {
+    "publish": "pnpm publish"
+  },
   "devDependencies": {
     "prettier": "^2.7.1"
   },

@@ -18,6 +18,9 @@
   "files": [
     "index.cjs"
   ],
+  "scripts": {
+    "publish": "pnpm publish"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.42.0",
     "@typescript-eslint/parser": "^5.42.0",
