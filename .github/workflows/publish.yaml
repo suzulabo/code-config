@@ -26,6 +26,6 @@ jobs:
 
       - run: pnpm test
 
-      - run: pnpm -r run publish
+      - run: pnpm publish -r
         env:
           NODE_AUTH_TOKEN: ${{secrets.NODE_AUTH_TOKEN}}
