@@ -1,6 +1,6 @@
 {
   "name": "@suzulabo/prettier-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "https://github.com/suzulabo/code-config/packages/prettier-config#readme",
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
     "access": "public"
   },
   "files": [
-    "index.cjs"
+    "index.js"
   ],
   "devDependencies": {
     "prettier": "^2.7.1"
