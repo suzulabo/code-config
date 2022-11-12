@@ -1,7 +1,7 @@
 {
   "name": "@suzulabo/tsconfig",
-  "version": "0.0.0",
-  "homepage": "https://github.com/suzulabo/code-config/packages/tsconfig#readme",
+  "version": "0.0.1",
+  "homepage": "https://github.com/suzulabo/code-config#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/suzulabo/code-config.git"
