@@ -26,6 +26,12 @@ jobs:
 
       - run: pnpm test
 
-      - run: pnpm publish -r
+      - run: pnpm publish -r --dry-run
+        if: github.ref == 'refs/heads/main'
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NODE_AUTH_TOKEN}}
+
+      - run: pnpm publish -r --no-git-checks --tag test --dry-run
+        if: github.ref != 'refs/heads/main'
         env:
           NODE_AUTH_TOKEN: ${{secrets.NODE_AUTH_TOKEN}}
