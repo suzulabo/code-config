@@ -20,11 +20,10 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
 
-    "moduleResolution": "nodenext",
+    "moduleResolution": "node",
     "noEmit": true,
 
     "target": "ESNext",
     "module": "ESNext"
-  },
-  "exclude": ["node_modules", "dist"]
+  }
 }

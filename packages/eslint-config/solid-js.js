@@ -4,7 +4,8 @@ module.exports = {
   overrides: [
     {
       files: ['*.ts', '*.tsx'],
-      extends: ['./typescript', 'prettier'],
+      plugins: ['solid'],
+      extends: ['./typescript', 'plugin:solid/recommended', 'prettier'],
     },
   ],
 };
