@@ -1,7 +1,7 @@
 /** @type {import('eslint').Linter.Config} */
 const config = {
   root: true,
-  extends: ['@suzulabo/eslint-config'],
+  extends: ['./eslint-config'],
 };
 
 module.exports = config;
