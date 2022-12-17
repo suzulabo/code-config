@@ -17,6 +17,7 @@ module.exports = {
     'require-await': 'off',
     '@typescript-eslint/require-await': 'warn',
 
+    'sort-imports': ['warn', { ignoreDeclarationSort: true }],
     'import/order': [
       'warn',
       {

@@ -56,6 +56,19 @@ importers:
     devDependencies:
       prettier: 2.8.1
 
+  packages/tests:
+    specifiers:
+      '@suzulabo/eslint-config': workspace:*
+      '@suzulabo/prettier-config': workspace:*
+      '@suzulabo/tsconfig': workspace:*
+      date-fns: ^2.29.3
+    dependencies:
+      date-fns: 2.29.3
+    devDependencies:
+      '@suzulabo/eslint-config': link:../eslint-config
+      '@suzulabo/prettier-config': link:../prettier-config
+      '@suzulabo/tsconfig': link:../tsconfig
+
   packages/tsconfig:
     specifiers:
       typescript: ^4.9.4
@@ -401,6 +414,11 @@ packages:
       shebang-command: 2.0.0
       which: 2.0.2
     dev: true
+
+  /date-fns/2.29.3:
+    resolution: {integrity: sha512-dDCnyH2WnnKusqvZZ6+jA1O51Ibt8ZMRNkDZdyAyK4YfbDwa/cEmuztzG5pk6hqlp9aSBPYcjOlktquahGwGeA==}
+    engines: {node: '>=0.11'}
+    dev: false
 
   /debug/2.6.9:
     resolution: {integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==}
