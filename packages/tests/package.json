@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {},
+  "devDependencies": {
+    "@suzulabo/eslint-config": "workspace:*",
+    "@suzulabo/prettier-config": "workspace:*",
+    "@suzulabo/tsconfig": "workspace:*"
+  },
+  "dependencies": {
+    "date-fns": "^2.29.3"
+  }
+}
